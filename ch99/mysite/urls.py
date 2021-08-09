@@ -23,7 +23,4 @@ urlpatterns = [
     path('bookmark/', include('bookmark.urls')),
     path('blog/', include('blog.urls')),
 
-    # class-based views
-    # path('bookmark/', ListView.as_view(model=Bookmark), name='index'),
-    # path('bookmark/<int:pk>', DetailView.as_view(model=Bookmark), name='detail'),
 ]
